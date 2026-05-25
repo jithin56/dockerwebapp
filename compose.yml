@@ -9,8 +9,7 @@ services:
       replicas: 3
     networks:
       - mynetwork
-    volumes:
-      - mysql-data:/var/lib/mysql
+
 
   application:
     image: shaikmustafa/automation:app
@@ -26,5 +25,4 @@ services:
 networks:
   mynetwork:
     driver: overlay
-volumes:
-  mysql-data:
+
