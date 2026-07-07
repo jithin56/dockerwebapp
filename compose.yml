@@ -2,7 +2,7 @@ version: "3.9"
 
 services:
   devopsdb:
-    image: jithin56/ekswebapp:dbimage-34-33-32-31-30-29-28
+    image: jithin56/ekswebapp:dbimage-35-34-33-32-31-30-29-28
     ports:
       - "3306:3306"
     deploy:
@@ -12,7 +12,7 @@ services:
 
 
   application:
-    image: jithin56/ekswebapp:appimage-34-33-32-31-30-29-28
+    image: jithin56/ekswebapp:appimage-35-34-33-32-31-30-29-28
     ports:
       - "1111:8080"
     deploy:
