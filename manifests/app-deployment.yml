@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: cont-1
-          image: jithin56/ekswebapp:appimage-144
+          image: jithin56/ekswebapp:appimage-145
           ports:
             - containerPort: 8080
       imagePullSecrets:
